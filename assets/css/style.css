@@ -15,7 +15,15 @@ body {
 hr {
   display: none;
 } /* rimuove l'elemento */
+#orang {
+  position: absolute;
+  right: 5px;
+  top: 1px;
+  font-size: 15px;
 
+  color: #faf3f3;
+  background-color: rgb(228, 180, 90);
+}
 /* HEADER */
 header {
   background: rgb(0, 160, 198);
@@ -42,21 +50,21 @@ header {
 @media screen and (max-width: 1199px) {
   header .brand img {
     margin-bottom: 20px;
-  }
-  #orang {
-    position: absolute;
-    right: 5px;
-    top: 1px;
-    font-size: 15px;
+    #orang {
+      position: absolute;
+      right: 5px;
+      top: 1px;
+      font-size: 15px;
 
-    color: #faf3f3;
-    background-color: rgb(228, 180, 90);
+      color: #faf3f3;
+      background-color: rgb(228, 180, 90);
+    }
   }
-  #purp {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
+}
+#purp {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -77,6 +85,15 @@ header {
   }
   header .brand p {
     margin-bottom: 0;
+  }
+  #orang {
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    font-size: 15px;
+
+    color: #faf3f3;
+    background-color: rgb(228, 180, 90);
   }
 }
 
@@ -172,7 +189,7 @@ h1 + p {
   #orang {
     position: absolute;
     right: 5px;
-    bottom: 1px;
+
     font-size: 15px;
 
     color: #faf3f3;
@@ -239,11 +256,20 @@ h1 + p {
   #orang {
     position: absolute;
     right: 5px;
-    bottom: 1px;
+
     font-size: 15px;
 
     color: #faf3f3;
     background-color: rgb(228, 180, 90);
+  }
+  #purp {
+    position: absolute;
+    right: 5px;
+
+    font-size: 15px;
+
+    color: #faf3f3;
+    background-color: rgb(5, 103, 224);
   }
 }
 
