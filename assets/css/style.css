@@ -43,6 +43,20 @@ header {
   header .brand img {
     margin-bottom: 20px;
   }
+  #orang {
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    font-size: 15px;
+
+    color: #faf3f3;
+    background-color: rgb(228, 180, 90);
+  }
+  #purp {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -116,6 +130,9 @@ section h2 {
   font-weight: bold;
   background-color: #a3a3a3;
   padding: 0px 1em;
+  position: absolute;
+  top: -15px;
+  left: 29px;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -151,6 +168,15 @@ h1 + p {
   h2 {
     font-size: 1.8rem;
     font-weight: 700;
+  }
+  #orang {
+    position: absolute;
+    right: 5px;
+    bottom: 1px;
+    font-size: 15px;
+
+    color: #faf3f3;
+    background-color: rgb(228, 180, 90);
   }
 }
 
@@ -206,6 +232,15 @@ h1 + p {
     background: rgb(136, 44, 255);
     border-radius: 10%;
     border-top-right-radius: 90%;
+  }
+  #orang {
+    position: absolute;
+    right: 5px;
+    bottom: 1px;
+    font-size: 15px;
+
+    color: #faf3f3;
+    background-color: rgb(228, 180, 90);
   }
 }
 
