@@ -59,6 +59,10 @@ header {
       color: #faf3f3;
       background-color: rgb(228, 180, 90);
     }
+    li a {
+      position: absolute;
+      right: 0;
+    }
   }
 }
 #purp {
@@ -86,6 +90,7 @@ header {
   header .brand p {
     margin-bottom: 0;
   }
+
   #orang {
     position: absolute;
     right: 5px;
@@ -94,6 +99,10 @@ header {
 
     color: #faf3f3;
     background-color: rgb(228, 180, 90);
+  }
+  li a {
+    position: absolute;
+    right: 0;
   }
 }
 
